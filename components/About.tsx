@@ -8,7 +8,7 @@ export default function About() {
       }}
     >
       <div className="container mx-auto max-w-5xl px-4">
-        <p className="text-3xl md:text-5xl lg:text-6xl font-light text-[#1f1f1f] text-center leading-tight tracking-tight font-spectral">
+        <p className="text-3xl lg:text-6xl font-light text-[#1f1f1f] text-center leading-tight tracking-tight font-spectral">
           I build <span className="font-semibold">thoughtful</span> web experiences where{' '}
           <span className="font-semibold">engineering rigor</span> meets{' '}
           <span className="font-semibold">interaction</span> and{' '}

@@ -4,7 +4,7 @@ import "./globals.css";
 
 const spectral = Spectral({ 
   subsets: ["latin"],
-  weight: ["300", "400", "600"],
+  weight: ["300", "400", "600", "700"],
   variable: "--font-spectral",
   display: "swap",
 });

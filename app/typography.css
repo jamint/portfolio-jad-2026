@@ -6,10 +6,11 @@
   font-family: var(--font-spectral), serif;
 }
 
-.spectral-h1 {
-  font-size: clamp(30px, calc(30px + (23 * (100vw - 375px) / 1545)), 53px) !important;
+.text-display-hero {
+  font-size: clamp(40px, 1.94vw + 32.7px, 70px) !important;
   font-family: var(--font-spectral), serif;
-  line-height: clamp(34.5px, calc(34.5px + (26.5 * (100vw - 375px) / 1545)), 61px);
+  font-weight: 500;
+  line-height: clamp(46px, 2.27vw + 37.5px, 81px);
   letter-spacing: -0.02em;
 }
 

@@ -20,10 +20,10 @@ export default function Hero() {
       />
 
       {/* Content Container */}
-      <div className="relative z-10 container mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between w-full max-w-7xl pt-32 pb-40">
+      <div className="relative z-10 container flex flex-col lg:flex-row items-center w-full max-w-[85%] pt-32 pb-40" style={{ gap: 0 }}>
         {/* Left Side - Text */}
-        <div className="flex-1 max-w-2xl mb-8 md:mb-0">
-          <h1 className="spectral-h1  text-white">
+        <div className="hero-left mb-8 lg:mb-0">
+          <h1 className="text-display-hero text-white">
             Front-end Engineer
             <br />
             & Creative Technologist
@@ -31,9 +31,9 @@ export default function Hero() {
         </div>
 
         {/* Right Side - Character */}
-        <div className="flex-1 flex justify-end items-start w-full md:w-auto pt-8 md:pt-0">
-          <div className="relative flex flex-col items-center">
-            <div className="relative w-[50%] sm:w-[45%] md:w-[40%] lg:w-[500px] xl:w-[717px] max-w-[717px] aspect-square">
+        <div className="hero-right flex justify-center items-center pt-8 lg:pt-0">
+          <div className="character-container relative flex flex-col items-center">
+            <div className="relative aspect-square">
               <Image
                 src="/images/characters-07-04.png"
                 alt="3D Character"
@@ -43,13 +43,13 @@ export default function Hero() {
               />
             </div>
             {/* Ellipses under character */}
-            <div className="relative mt-[-60px]">
+            <div className="ellipse-container relative mt-[-60px]">
               <Image
                 src="/images/ellipse-4.svg"
                 alt=""
                 width={690}
                 height={27}
-                className="opacity-60 w-full max-w-[690px]"
+                className="opacity-60 w-full"
                 style={{ aspectRatio: '690/27' }}
               />
             </div>

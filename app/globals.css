@@ -19,3 +19,39 @@ body {
     text-wrap: balance;
   }
 }
+
+.hero-left,
+.hero-right {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+  box-sizing: border-box;
+}
+
+.hero-right {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.hero-right > div {
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+@media (max-width: 1023px) {
+  .hero-left,
+  .hero-right {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100%;
+  }
+}
+
+.character-container > div {
+  width: clamp(400px, 51.78vw + 205.83px, 1200px);
+}
+
+.ellipse-container {
+  width: clamp(400px, 51.78vw + 205.83px, 1200px);
+}
