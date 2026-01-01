@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 1439 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="Hero Floor" d="M0 0H1439V119H0V0Z" fill="url(#paint0_linear_0_6)"/>
+<defs>
+<linearGradient id="paint0_linear_0_6" x1="377" y1="-297.5" x2="1369" y2="213.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#330867"/>
+<stop offset="1" stop-color="#30CFD0"/>
+</linearGradient>
+</defs>
+</svg>

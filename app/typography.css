@@ -1,0 +1,15 @@
+.font-google-sans {
+  font-family: 'Google Sans', 'Google Sans Text', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.font-spectral {
+  font-family: var(--font-spectral), serif;
+}
+
+.spectral-h1 {
+  font-size: clamp(30px, calc(30px + (23 * (100vw - 375px) / 1545)), 53px) !important;
+  font-family: var(--font-spectral), serif;
+  line-height: clamp(34.5px, calc(34.5px + (26.5 * (100vw - 375px) / 1545)), 61px);
+  letter-spacing: -0.02em;
+}
+
