@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav className="fixed top-4 left-4 right-4 z-50 flex items-center justify-between py-4">
       <div className="spectral-h1 font-extrabold text-white">
-        Jad Mintun.
+        .Jad Mintun.
       </div>
       <div className="flex items-center gap-4 md:gap-8">
         <Link href="#work" className="hidden md:block text-white text-base font-google-sans tracking-tight hover:opacity-80 transition-opacity">
