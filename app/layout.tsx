@@ -12,6 +12,10 @@ const spectral = Spectral({
 export const metadata: Metadata = {
   title: "Portfolio - Jad Mintun",
   description: "Portfolio website for Jad Mintun",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
