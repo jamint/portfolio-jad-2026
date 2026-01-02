@@ -49,9 +49,9 @@ body {
 }
 
 .character-container > div {
-  width: clamp(400px, 51.78vw + 205.83px, 1200px);
+  width: clamp(300px, 45.31vw + 130.1px, 1000px);
 }
 
 .ellipse-container {
-  width: clamp(400px, 51.78vw + 205.83px, 1200px);
+  width: clamp(300px, 45.31vw + 130.1px, 1000px);
 }

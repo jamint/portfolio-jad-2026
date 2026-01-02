@@ -35,7 +35,7 @@ export default function Hero() {
           <div className="character-container relative flex flex-col items-center">
             <div className="relative aspect-square">
               <Image
-                src="/images/characters-07-04.png"
+                src="/images/characters-07-04-b.png"
                 alt="3D Character"
                 fill
                 className="object-contain"
